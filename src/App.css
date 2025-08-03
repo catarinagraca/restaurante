@@ -1,38 +1,65 @@
 .App {
+  font-family: Arial, sans-serif;
   text-align: center;
+  padding: 20px;
+  background-color: #fffaf0;
+  color: #333;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  margin-bottom: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.botoes {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.botao-dia {
+  padding: 10px 15px;
+  border: none;
+  background-color: #f0a500;
   color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
-.App-link {
-  color: #61dafb;
+.botao-dia:hover {
+  background-color: #d48806;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.botao-dia.ativo {
+  background-color: #a35f00;
 }
+
+.ementa-dia {
+  background-color: #fff8e1;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  margin: 0 auto;
+}
+.prato {
+  margin-bottom: 20px;
+}
+.botao-sugestao {
+  display: inline-block;
+  margin-top: 5px;
+  padding: 6px 12px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.9em;
+  transition: background-color 0.3s ease;
+}
+
+.botao-sugestao:hover {
+  background-color: #388e3c;
+}
+
