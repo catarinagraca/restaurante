@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
-import PopupPizza from "./PopupPizza";
+{/* import PopupPizza from "./PopupPizza";*/}
+
 import { motion, AnimatePresence } from "framer-motion";
 
 function App() {
