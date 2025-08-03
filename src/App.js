@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 
 import { motion, AnimatePresence } from "framer-motion";
-{/* import PopupPizza from "./PopupPizza";*/}
+
 
 function App() {
   const ementa = {
