@@ -92,7 +92,7 @@ function App() {
 )}
 
       </AnimatePresence>
-      <PopupPizza />
+      {/* <PopupPizza />*/}
     </div>
     
   );
